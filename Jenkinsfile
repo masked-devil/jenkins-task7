@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace the URL below with your GitHub repository URL
-                git 'https://github.com/your-username/your-repository.git'
+                git 'https://github.com/masked-devil/jenkins-task7'
             }
         }
         stage('Build Docker Image') {
